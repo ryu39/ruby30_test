@@ -1,9 +1,8 @@
-require 'minitest/unit'
 require 'minitest/autorun'
 
 require_relative '../lib/calculator'
 
-class TestCalculator < MiniTest::Unit::TestCase
+class TestCalculator < Minitest::Test
   def setup
     @calculator = Calculator.new
   end
